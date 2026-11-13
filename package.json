@@ -1,0 +1,17 @@
+{
+  "name": "byte-order-mark-stripper",
+  "version": "0.1.0",
+  "description": "Strips UTF-8, UTF-16, and UTF-32 BOMs from files and reports the encoding found.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": "./src/index.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [],
+  "license": "BSD-3-Clause",
+  "dependencies": {}
+}
